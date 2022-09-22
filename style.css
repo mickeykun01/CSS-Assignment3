@@ -1,0 +1,168 @@
+body{
+    background-color: hsla(0, 4%, 28%, 0.663);
+}
+
+.box{
+    width: 370px;
+    height: 150px;
+    margin: auto;
+    padding: 4px;
+    border: 7px solid red;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 2px darkmagenta;
+    color: brown;
+    text-shadow: 3px 3px 2px rgb(72, 19, 72);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic ;
+    background-color: white;
+}
+
+.parent {
+    width: 1350px;
+    height: 550px;
+    background-repeat: no-repeat;
+    border: 7px solid darkgreen;
+    /* position: relative; */
+    /* display: flex; */
+    margin: 2px;
+}
+
+.box1 {
+    width: 170px;
+    height: 190px;
+    border: 7px solid red;
+    border-radius: 13px;
+    box-shadow: 5px 5px 2px darkmagenta;
+    padding: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 1000; */
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    left: 2px;
+    top: 2px;
+    margin: 2px;
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px 0.7px purple;
+    
+ }
+
+ .box2 {
+    border: 7px solid red;
+    border-radius:12px;
+    box-shadow: 5px 5px 2px darkmagenta;
+    padding: 4px;
+    width: 200px;
+    height: 180px;
+    background-image: url(./aloneboy.jpg);
+    background-size: 180px;
+     background-repeat: no-repeat;
+    background-color: white;
+    margin: 2px;
+    background-position: 12px 39px;
+    position: relative;
+    left: 79%;
+    top: -37%;
+ }
+
+ .box3 {
+    width: 160px;
+    height: 190px;
+    border: 7px solid red;
+    border-radius:12px;
+    box-shadow: 5px 5px 2px darkmagenta;
+    position: relative;
+    left: 5px;
+    top: -15%;
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 1px purple;
+    font-weight: bolder;
+
+ }
+
+ .box4{
+    width: 170px;
+    height: 190px;
+    border: 7px solid red;
+    border-radius:12px;
+    box-shadow: 5px 5px 2px darkmagenta;
+    text-align: center;
+    position: relative;
+    top: -52%;
+    left: 83%;
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 1px purple;
+    font-weight: bolder;
+
+ }
+
+ .box5 {
+    width: 30%;
+    height: 10%;
+    border: 7px solid red;
+    box-shadow: 5px 5px 2px darkmagenta;
+    border-radius: 12px;
+    background-color: lightgreen;
+    color: red;
+    font-size: large;
+    padding: 2px;
+    position: sticky;
+    left: 32%;
+    top: 40%;
+    right: 0%;
+    bottom: 7%;
+    align-items: baseline;
+    font-weight: bolder;
+    font-style: italic;
+    z-index: +1;
+}
+
+.P{
+    width: 45%;
+    height: 40%;
+    border: 7px solid darkmagenta;
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 9px;
+    position: relative;
+    left: 25%;
+    
+   
+}
+
+.C1{
+    width: 300px;
+    height: 260px;
+    border: 1px solid black;
+    background-color: rgb(219, 112, 35);
+    
+    position: relative;
+    left: 4px;
+    top: 4px;
+    font-style: italic;
+}
+
+.C2{
+    width: 300px;
+    height: 260px;
+    border: 1px solid black;
+    background-color: rgb(219, 112, 35);
+    position: relative;
+    left: 51%; 
+    margin-top: -42%;
+    font-style: italic;
+   
+}
+
+.C3 {
+    width: 620px;
+    height: 270px;
+    border: 1px solid black;
+    background-color: rgb(219, 112, 35);
+    margin: 5px;
+    font-style: italic;
+}
